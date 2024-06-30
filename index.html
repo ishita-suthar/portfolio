@@ -10,9 +10,12 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <style type="text/css">
   .cw{color:white}
-  .bos:hover{box-shadow: 0px 3px 4px 3px white;border: 1px solid white;}
+  .fs6{font-size: 60px;}
+  .bos:hover{box-shadow: 0px 0px 3px 4px white;border: 1px solid white;}
   .bcf:hover{height:150px;transition: 3s;margin-top: 5%;}
   .cf{color:white;font-size:90px;padding-left: 10%;}
   .cf:hover{color:rgb(232, 86, 208);font-size:90px;padding-left: 10%;transition: 3s;padding-top: 8%;}
@@ -24,20 +27,30 @@
     .bg1{background-color: rgb(7, 175, 201);}
     .bimg{background-image: url('pic/p3.png');background-position:left;background-size:50%;height: 500px;background-repeat: no-repeat;background-color: rgba(0, 247, 255, 0.532);}
 
-    .bimg3{background-image: url('pic/p2.png');background-position:left;background-size:50%;height: 300px;background-repeat: no-repeat;background-color: rgba(0, 247, 255, 0);}
+    .bimg4{background-image: url('pic/p5.jpg');background-position:center;background-size:100%;height: 500px;background-repeat: no-repeat;background-color: rgba(0, 247, 255, 0.532);}
+
+    .bimg3{background-image: url('pic/p2.png');background-position:left;background-size:50%;height: 700px;background-repeat: no-repeat;background-color: rgba(7, 175, 201, 0.29);}
 
     .bimg1{background-image: url('pic/p4.png');background-position:left;background-size:30%;height: 400px;background-repeat: no-repeat;background-color: rgba(0, 247, 255, 0.443);}
     .bgt{background-color: rgba(255, 0, 170, 0.16);}
 
+
+    .bimg5{background-image: url('pic/z5.jpeg');background-position:center;background-size:100%;height: 700px;background-repeat: no-repeat;border-top-left-radius:50px ;border-start-end-radius: 150%;}
+
     .pc{color: rgb(202, 86, 105);}
     .im:hover{height:230px;transition: 3s;width: 110%;}
    .bg2:hover{background-color: rgb(22, 209, 238);box-shadow: 0px 0px 3px 4px rgb(106, 186, 225);transition: 3s;}
+
+   .inc{border: 1px solid rgb(188, 17, 45);height: 50px;}
+   .cp{color:rgb(188, 17, 45) ;}
+
+   .bo{border: 1px solid rgb(188, 17, 45);height: 130px;}
     
 </style>
 </head>
 <body>
 <div class="container-fluid">
-    <div class="col-md-12 bg1">
+    <div id="ho" class="col-md-12 bg1">
         
         <center><img src="pic/p2.png" class="col-md-2 bcf" ></center>
         <center><div class=" col-md-5 ms-5">
@@ -46,19 +59,19 @@
             
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
+                  <a class="nav-link active" href="#ho">Home</a>
                 </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">menu</a>
+                  <a class="nav-link" href="#me">menu</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Location & Schedule</a>
+                  <a class="nav-link" href="#lo">Location & Schedule</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#ab">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
+                    <a class="nav-link" href="#co">contact</a>
                   </li>
                 
               </ul>
@@ -86,8 +99,8 @@
 
      
    
-<div class="container-fluid ">
-  <div class="col-md-12 bg1 py-5" >
+<div class="container-fluid p-0">
+  <div id="me" class="col-md-12 bg1 py-5" >
    <center><h1 class="col-md-8 cw" style="font-size: 110px;">Our Menu</h1>
     <div style="border-top: 5px solid white;width: 10%;" class="rounded-2"></div>
     <br><br>
@@ -98,7 +111,7 @@
   </div>
 </div>
 
-<div class="container-fluid ">
+<div class="container-fluid p-0">
   <div class="col-md-12 bg1">
     <div class="container">
     
@@ -110,68 +123,68 @@
             <br><br>
             <div class="row">
              
-              <div class="col-md-5">
+              <div class="col-md-5 col-6">
               
               <h3 class="cw">ice cream
               </h3>
 
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 col-6">
                 <div style="border-top:5px solid white;height: 10px;width: 90%;margin-top: 10%;" class="rounded-3"></div>
               </div>
             </div>
 <br><br>
 <div class="row">
-  <div class="col-md-3 col-6">
+  <div class="col-md-3 col-4">
     <img src="pic/m1.jpg"  class="col-md-12" alt="">
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6 col-4">
     <h6 class="cw">Ice Cream 01<br>
       A short description</h6>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-3 col-4">
     <h5 class="cw">$ 2.45</h5>
   </div>
   <br><br><br><br>
   <hr class="cw">
 <br>
   <div class="row">
-    <div class="col-md-3 col-6">
+    <div class="col-md-3 col-4">
       <img src="pic/m2.jpg"  class="col-md-12" alt="">
     </div>
-    <div class="col-md-7">
+    <div class="col-md-7 col-4">
       <h6 class="cw">Ice Cream 02<br>
         A short description</h6>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-2 col-4">
       <h5 class="cw">$ 2.75</h5>
     </div>
     <br><br><br><br>
     <hr class="cw">
 <br>
     <div class="row">
-      <div class="col-md-3 col-6">
+      <div class="col-md-3 col-4">
         <img src="pic/m3.jpg"  class="col-md-12" alt="">
       </div>
-      <div class="col-md-7">
+      <div class="col-md-7 col-4">
         <h6 class="cw">Ice Cream 03<br>
           A short description</h6>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 col-4">
         <h5 class="cw">$ 1.75</h5>
       </div>
       <br><br><br><br>
       <hr class="cw">
 <br>
       <div class="row">
-        <div class="col-md-3 col-6">
+        <div class="col-md-3 col-4">
           <img src="pic/m4.jpg"  class="col-md-12" alt="">
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 col-4">
           <h6 class="cw">Ice Cream 04<br>
             A short description</h6>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-4">
           <h5 class="cw">$2.95</h5>
         </div>
         <br><br><br><br>
@@ -196,68 +209,68 @@
           <br><br>
             <div class="row">
              
-              <div class="col-md-5">
+              <div class="col-md-5 col-6">
               
               <h3 class="cw">shakes
               </h3>
 
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 col-6">
                 <div style="border-top:5px solid white;height: 10px;width: 90%;margin-top: 10%;" class="rounded-3"></div>
               </div>
             </div>
 <br><br>
 <div class="row">
-  <div class="col-md-3">
+  <div class="col-md-3 col-4">
     <img src="pic/s1.jpg"  class="col-md-12" alt="">
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6 col-4">
     <h6 class="cw">Shake 01<br>
       A short description</h6>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-3 col-4">
     <h5 class="cw">$ 2.45</h5>
   </div>
   <br><br><br><br>
   <hr class="cw">
 <br>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3 col-4">
       <img src="pic/s2.jpg"  class="col-md-12" alt="">
     </div>
-    <div class="col-md-7">
+    <div class="col-md-7 col-4">
       <h6 class="cw">Shake 02<br>
         A short description</h6>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-2 col-4">
       <h5 class="cw">$ 2.75</h5>
     </div>
     <br><br><br><br>
     <hr class="cw">
 <br>
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 col-4">
         <img src="pic/f3.jpg"  class="col-md-12" alt="">
       </div>
-      <div class="col-md-7">
+      <div class="col-md-7 col-4">
         <h6 class="cw">Shake 03<br>
           A short description</h6>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 col-4">
         <h5 class="cw">$ 1.75</h5>
       </div>
       <br><br><br><br>
       <hr class="cw">
 <br>
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 col-4">
           <img src="pic/s4.jpg"  class="col-md-12" alt="">
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 col-4">
           <h6 class="cw">Shake 04<br>
             A short description</h6>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-4">
           <h5 class="cw">$2.95</h5>
         </div>
         <br><br><br><br>
@@ -272,10 +285,316 @@
     </div>
   </div>
   </div>
+  </div>
+  </div>
+  </div>
+<div class="container-fluid ">
+  <div class="col-md-12 bg1 ">
+    
+    <div class="container">
+    
+      <div class="row">
+        <div class="col-md-6 border bg2">
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <br><br>
+              <div class="row">
+               
+                <div class="col-md-5 col-6">
+                
+                <h3 class="cw">Coolers</h3>
+                </h3>
+  
+                </div>
+                <div class="col-md-7 col-6">
+                  <div style="border-top:5px solid white;height: 10px;width: 90%;margin-top: 10%;" class="rounded-3"></div>
+                </div>
+              </div>
+  <br><br>
+  <div class="row">
+    <div class="col-md-3 col-4">
+      <img src="pic/c1.jpg"  class="col-md-12" alt="">
+    </div>
+    <div class="col-md-6 col-4">
+      <h6 class="cw">Cooler 01<br>
+        A short description</h6>
+    </div>
+    <div class="col-md-3 col-4">
+      <h5 class="cw">$ 3.05</h5>
+    </div>
+    <br><br><br><br>
+    <hr class="cw">
+  <br>
+    <div class="row">
+      <div class="col-md-3 col-4">
+        <img src="pic/c2.jpg"  class="col-md-12" alt="">
+      </div>
+      <div class="col-md-7 col-4">
+        <h6 class="cw">Cooler 02<br>
+          A short description</h6>
+      </div>
+      <div class="col-md-2 col-4">
+        <h5 class="cw">$ 2.55</h5>
+      </div>
+      <br><br><br><br>
+      <hr class="cw">
+  <br>
+      <div class="row">
+        <div class="col-md-3 col-4">
+          <img src="pic/c3.jpg"  class="col-md-12" alt="">
+        </div>
+        <div class="col-md-7 col-4">
+          <h6 class="cw">Cooler 03<br>
+            A short description</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <h5 class="cw">$ 3.75</h5>
+        </div>
+        <br><br><br><br>
+        <hr class="cw">
+  <br>
+        <div class="row">
+          <div class="col-md-3 col-4">
+            <img src="pic/c4.jpg"  class="col-md-12" alt="">
+          </div>
+          <div class="col-md-8 col-4">
+            <h6 class="cw">Cooler 04<br>
+              A short description</h6>
+          </div>
+          <div class="col-md-1 col-4">
+            <h5 class="cw">$4.00</h5>
+          </div>
+          <br><br><br><br>
+          <hr class="cw">
+        </div>
+  
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+  </div>
+  </div>
+  </div>
+</div>
+  
+<div class="col-md-6 border bg2">
+  <div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+
+    <br><br>
+      <div class="row">
+       
+        <div class="col-md-5 col-6">
+        
+        <h3 class="cw">gelato
+        </h3>
+
+        </div>
+        <div class="col-md-7 col-6">
+          <div style="border-top:5px solid white;height: 10px;width: 90%;margin-top: 10%;" class="rounded-3"></div>
+        </div>
+      </div>
+<br><br>
+<div class="row">
+<div class="col-md-3 col-4">
+<img src="pic/g1.jpg"  class="col-md-12" alt="">
+</div>
+<div class="col-md-6 col-4">
+<h6 class="cw">Gelato 01<br>
+  A short description</h6>
+</div>
+<div class="col-md-3 col-4">
+<h5 class="cw">$ 3.05</h5>
+</div>
+<br><br><br><br>
+<hr class="cw">
+<br>
+<div class="row">
+<div class="col-md-3 col-4">
+<img src="pic/g2.jpg"  class="col-md-12" alt="">
+</div>
+<div class="col-md-7 col-4">
+<h6 class="cw">Gelato 02<br>
+  A short description</h6>
+</div>
+<div class="col-md-2 col-4">
+<h5 class="cw">$ 2.35</h5>
+</div>
+<br><br><br><br>
+<hr class="cw">
+<br>
+<div class="row">
+<div class="col-md-3 col-4">
+  <img src="pic/g3.jpg"  class="col-md-12" alt="">
+</div>
+<div class="col-md-7 col-4">
+  <h6 class="cw">Gelato 03<br>
+    A short description</h6>
+</div>
+<div class="col-md-2 col-4">
+  <h5 class="cw">$ 1.75</h5>
+</div>
+<br><br><br><br>
+<hr class="cw">
+<br>
+<div class="row">
+  <div class="col-md-3 col-4">
+    <img src="pic/g4.jpg"  class="col-md-12" alt="">
+  </div>
+  <div class="col-md-8 col-4">
+    <h6 class="cw">Gelato 04<br>
+      A short description</h6>
+  </div>
+  <div class="col-md-1 col-4">
+    <h5 class="cw">$2.00</h5>
+  </div>
+  <br><br><br><br>
+  <hr class="cw">
+   
+</div>
+  </div>
+  <div class="col-md-2"></div>
 </div>
 
-<div class="container-fluid">
-  <div class="col-md-12 bimg3"></div>
+
 </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+            
+       
+<div class="container">
+  <div id="lo" class="col-md-12 bg1">
+    <div class="row">
+      <div class="col-md-6 py-5">
+<h1 class="cw fs6">location <br>& schedule</h1>
+<div style="border-top:5px solid white;height: 10px;width: 20%;margin-top: 10%;" class="rounded-3"></div>
+      </div>
+      <div class="col-md-6 py-5">
+<h2 class="cw">Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti.</h2>
+<p class="cw">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.
+
+</p>
+      </div>
+    </div>
+  </div>
+</div>
+     
+    <div class="container">
+      <div class="col-md-12 col-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d436782.34536697617!2d-0.35807497748358963!3d51.51674454658143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1719738850576!5m2!1sen!2sin" style="height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="col-md-12 col-12" ></iframe>
+      </div>
+    </div>
+    <div class="container">
+      <div id="ab" class="col-md-12">
+        <div class="row">
+           <div class="col-md-6 py-5">
+            <div class="col-md-10 bimg4">
+              <img src="pic/j.png"  alt="" style="position:relative;left:50%;top: 50%;">
+            </div>
+
+           </div>
+           <div class="col-md-6">
+            <br><br>
+<h1 class="fs6 cw">About</h1>
+<div style="border-top:5px solid white;height: 10px;width: 20%;margin-top: 10%;" class="rounded-3"></div>
+<h2 class="cw">Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit.</h2>
+<br>
+<p class="cw">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+           </div>
+        </div>
+        <div style="border-top:5px solid white;height: 10px;width: 100%;margin-top: 10%;" class="rounded-3"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="co" class="col-md-12 py-5">
+        <div class="row">
+          <div class="col-md-6 py-5">
+<h1 class="cw fs6">Contact</h1>
+<div style="border-top:5px solid white;height: 10px;width: 20%;margin-top: 10%;" class="rounded-3"></div>
+<p class="cw">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+<div class="row">
+  <div class="col-md-2 col-6 ">
+    <center><i class="fa fa-phone cw fs6" aria-hidden="true"></i></center>
+    
+  </div>
+  <div class="col-md-8 col-6">
+    <h3 class="cw">Phone<br>
+      929-242-6868</h3>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-2 col-6">
+    <center><i class="fa fa-envelope cw fs6" aria-hidden="true"></i></center>
+    
+  </div>
+  <div class="col-md-8 col-6">
+    <h3 class="cw">Email<br>
+      contact@info.com</h3>
+  </div>
+</div>
+
+          </div>
+          <div class="col-md-6 py-5">
+           <div class="col-md-9">
+            <form action="">
+  <div class="row">
+  <div class="col-md-6 col-6">
+    
+    <input type="text" placeholder="First Name" class="inc">
+    <h6 class="cp">This field is required.</h6>
+  </div>
+  <div class="col-md-6 col-6 ">
+    <input type="text" placeholder="Last Name" class="inc" >
+    <h6 class="cp">This field is required.</h6>
+  </div>
+  <br><br><br>
+  <input type="text" placeholder="Email Address" class="inc col-md-11">
+    <h6 class="cp">This field is required.</h6>
+    <br><br>
+    <textarea placeholder="Your Message"  class="col-md-11  bo"  >
+
+    </textarea>
+    <h6 class="cp">This field is required.</h6>
+    <br><br>
+
+    <button class="btn btn-info col-md-4 col-6 cw ">Send Message</button>
+  
+</div>
+
+          </div>
+        </form>
+      </div>
+
+      
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid ">
+      <div class="col-md-12 bimg5">
+        <center>
+<img src="pic/p1.png"height="200px"width="30%">
+<br><br>
+  <h3 class="cw">IT’S TRUCKING GOOD!</h3>
+  <br>
+  <p class="cw">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+   <br> luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+    <button class="btn btn-info">  <i class="fa fa-facebook-official" aria-hidden="true"></i></button>
+  
+  <button class="btn btn-info">  <i class="fa fa-instagram" aria-hidden="true"></i></button>
+  
+    <button class="btn btn-info">  <i class="fa fa-youtube-play" aria-hidden="true"></i></button>
+  <br><br><br>
+   <h6 class="cw">Copyright © 2024 Food Truck | Powered by Food Truck</h6>
+</center>
+      </div>
+
+    </div>
 </body>
 </html>
